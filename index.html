@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Engineering Portfolio - Marcelinus Yudistira Yoga Pratama">
+    <title>Marcelinus Yudistira | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Marcelinus Y.</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <p class="hero-label">Software Engineer</p>
+            <h1 class="hero-name">Marcelinus Yudistira<br>Yoga Pratama</h1>
+            <p class="hero-desc">Building enterprise healthcare platforms serving 41+ hospitals across Indonesia.</p>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num">2.5+</span><span class="stat-label">Years</span></div>
+                <div class="stat"><span class="stat-num">41+</span><span class="stat-label">Hospitals</span></div>
+                <div class="stat"><span class="stat-num">40%</span><span class="stat-label">Faster UI</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <span class="section-label">About</span>
+            <h2 class="section-title">Profile</h2>
+            <div class="about-content">
+                <p>Software Engineer at <strong>BitHealth</strong> - an AI-powered digital health solution provider. I work within a cross-functional Agile team combining frontend delivery (Next.js, Vue.js), backend API development (Express.js), and AWS infrastructure optimization.</p>
+                <p>Graduated <strong>Cum Laude</strong> from Universitas Atma Jaya Yogyakarta, Bachelor of Informatics (GPA 3.89/4.00).</p>
+            </div>
+            <div class="tech-stack">
+                <span>Next.js</span><span>Vue.js</span><span>React.js</span><span>Express.js</span><span>NestJS</span><span>Laravel</span><span>PostgreSQL</span><span>MySQL</span><span>AWS</span><span>Docker</span><span>Jest</span><span>Git</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-dark" id="projects">
+        <div class="container">
+            <span class="section-label">Work</span>
+            <h2 class="section-title">Projects</h2>
+
+            <!-- Project 1 -->
+            <article class="project">
+                <div class="project-header">
+                    <span class="project-number">01</span>
+                    <div>
+                        <h3 class="project-name">Hybrid Workforce Attendance Platform</h3>
+                        <p class="project-subtitle">Microservices-based web platform for employee attendance tracking and workforce monitoring.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <div class="meta-item"><span class="meta-label">Role</span><span class="meta-value">Full Stack Developer</span></div>
+                    <div class="meta-item"><span class="meta-label">Type</span><span class="meta-value">Personal Project</span></div>
+                    <div class="meta-item"><span class="meta-label">Stack</span><span class="meta-value">React.js, NestJS, MySQL</span></div>
+                    <div class="meta-item"><span class="meta-label">Architecture</span><span class="meta-value">Microservices</span></div>
+                </div>
+                <div class="project-screenshot">
+                    <img src="images/project-01.png" alt="Hybrid Workforce Attendance Platform Screenshot">
+                </div>
+                <div class="project-body">
+                    <div class="project-overview">
+                        <h4>Overview</h4>
+                        <p>Developed a microservices-based attendance management platform to support hybrid work environments. The application captures attendance timestamps, allows photo evidence upload during check-in, and provides HR administrators with centralized workforce monitoring.</p>
+                    </div>
+                    <div class="project-contributions">
+                        <h4>My Contributions</h4>
+                        <ol>
+                            <li>Designed the overall system architecture using a microservices approach.</li>
+                            <li>Developed responsive user interfaces with React.js.</li>
+                            <li>Developed RESTful APIs using NestJS for authentication, attendance, and employee management.</li>
+                            <li>Implemented secure login and role-based access control.</li>
+                            <li>Developed attendance submission with automatic date/time capture and photo upload.</li>
+                            <li>Designed and implemented MySQL database schemas.</li>
+                        </ol>
+                    </div>
+                    <div class="project-highlights">
+                        <h4>Highlights</h4>
+                        <div class="highlights-grid">
+                            <span class="chip chip-blue">Microservices architecture</span>
+                            <span class="chip chip-green">Photo verification</span>
+                            <span class="chip chip-purple">HR dashboard</span>
+                            <span class="chip chip-orange">RESTful APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/marcelinusyudistira" class="project-link" target="_blank" rel="noopener">View Source Code &rarr;</a>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project">
+                <div class="project-header">
+                    <span class="project-number">02</span>
+                    <div>
+                        <h3 class="project-name">Collaborative Task Management Platform</h3>
+                        <p class="project-subtitle">Web-based task management with real-time collaboration, secure file handling, and scalable RESTful API.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <div class="meta-item"><span class="meta-label">Role</span><span class="meta-value">Full Stack Developer</span></div>
+                    <div class="meta-item"><span class="meta-label">Type</span><span class="meta-value">Personal Project</span></div>
+                    <div class="meta-item"><span class="meta-label">Stack</span><span class="meta-value">Next.js, Laravel, MySQL</span></div>
+                    <div class="meta-item"><span class="meta-label">Features</span><span class="meta-value">WebSocket, JWT, File Upload</span></div>
+                </div>
+                <div class="project-screenshot">
+                    <img src="images/project-02.png" alt="Collaborative Task Management Platform Screenshot">
+                </div>
+                <div class="project-body">
+                    <div class="project-overview">
+                        <h4>Overview</h4>
+                        <p>Developed a web-based task management platform that enables teams to organize, track, and manage daily tasks through a centralized workspace. Supports task updates, secure file attachments, and responsive interfaces.</p>
+                    </div>
+                    <div class="project-contributions">
+                        <h4>My Contributions</h4>
+                        <ol>
+                            <li>Designed and developed RESTful APIs for task, authentication, and file management.</li>
+                            <li>Built responsive user interfaces using Next.js.</li>
+                            <li>Implemented JWT-based authentication and user session management.</li>
+                            <li>Developed secure file upload with validation and attachment management.</li>
+                            <li>Integrated real-time task updates using WebSockets.</li>
+                            <li>Implemented task filtering, searching, sorting, and pagination.</li>
+                            <li>Wrote unit tests for core business logic and API endpoints.</li>
+                        </ol>
+                    </div>
+                    <div class="project-highlights">
+                        <h4>Highlights</h4>
+                        <div class="highlights-grid">
+                            <span class="chip chip-green">Secure file management</span>
+                            <span class="chip chip-blue">Scalable RESTful architecture</span>
+                            <span class="chip chip-purple">Background job processing</span>
+                            <span class="chip chip-orange">Automated API testing</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/marcelinusyudistira" class="project-link" target="_blank" rel="noopener">View Source Code &rarr;</a>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project">
+                <div class="project-header">
+                    <span class="project-number">03</span>
+                    <div>
+                        <h3 class="project-name">Liturgical Scheduling Automation System</h3>
+                        <p class="project-subtitle">Automated scheduling system generating annual church ministry schedules from complex liturgical rules.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <div class="meta-item"><span class="meta-label">Role</span><span class="meta-value">Full Stack Developer</span></div>
+                    <div class="meta-item"><span class="meta-label">Type</span><span class="meta-value">Personal Project</span></div>
+                    <div class="meta-item"><span class="meta-label">Stack</span><span class="meta-value">Python, React.js, HTML/CSS</span></div>
+                    <div class="meta-item"><span class="meta-label">Output</span><span class="meta-value">Automated Schedule Generation</span></div>
+                </div>
+                <div class="project-screenshot">
+                    <img src="images/project-03.png" alt="Liturgical Scheduling Automation Screenshot">
+                </div>
+                <div class="project-body">
+                    <div class="project-overview">
+                        <h4>Overview</h4>
+                        <p>Developed an automated scheduling system to streamline annual church ministry schedules. Built in two iterations - a Python prototype for algorithm validation, and a React.js production version. Processes large datasets with multiple liturgical constraints to generate optimized schedules.</p>
+                    </div>
+                    <div class="project-contributions">
+                        <h4>My Contributions</h4>
+                        <ol>
+                            <li>Designed the scheduling workflow based on liturgical requirements.</li>
+                            <li>Implemented scheduling algorithms in Python for complex rule processing.</li>
+                            <li>Developed the production UI with React.js.</li>
+                            <li>Built data import and export functionalities.</li>
+                            <li>Optimized data processing for large participant sets.</li>
+                            <li>Validated generated schedules against predefined constraints.</li>
+                        </ol>
+                    </div>
+                    <div class="project-highlights">
+                        <h4>Highlights</h4>
+                        <div class="highlights-grid">
+                            <span class="chip chip-purple">Algorithmic scheduling</span>
+                            <span class="chip chip-orange">Rule-based engine</span>
+                            <span class="chip chip-blue">Large-scale processing</span>
+                            <span class="chip chip-green">Import/export</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/marcelinusyudistira" class="project-link" target="_blank" rel="noopener">View Source Code &rarr;</a>
+            </article>
+
+            <!-- Project 4 -->
+            <article class="project">
+                <div class="project-header">
+                    <span class="project-number">04</span>
+                    <div>
+                        <h3 class="project-name">Decision Support System for Direct Cash Assistance</h3>
+                        <p class="project-subtitle">AHP-based system assisting village governments in transparent beneficiary selection.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <div class="meta-item"><span class="meta-label">Role</span><span class="meta-value">Full Stack Developer</span></div>
+                    <div class="meta-item"><span class="meta-label">Type</span><span class="meta-value">Academic Project (Deployed)</span></div>
+                    <div class="meta-item"><span class="meta-label">Stack</span><span class="meta-value">Vue.js, Laravel, MySQL</span></div>
+                    <div class="meta-item"><span class="meta-label">Method</span><span class="meta-value">Analytical Hierarchy Process</span></div>
+                </div>
+                <div class="project-screenshot">
+                    <img src="images/project-04.png" alt="AHP Decision Support System Screenshot">
+                </div>
+                <div class="project-body">
+                    <div class="project-overview">
+                        <h4>Overview</h4>
+                        <p>Developed a web-based decision support system to assist village governments in identifying Direct Cash Assistance (BLT) recipients using AHP. Provides separate portals for administrators and the public, promoting transparent decision-making. Deployed and actively used by local village officials.</p>
+                    </div>
+                    <div class="project-contributions">
+                        <h4>My Contributions</h4>
+                        <ol>
+                            <li>Designed and developed both public and administrative web portals.</li>
+                            <li>Implemented AHP algorithm for recipient evaluation and ranking.</li>
+                            <li>Developed administrative modules for assessment and announcement management.</li>
+                            <li>Built public-facing features for announcements and citizen feedback.</li>
+                            <li>Implemented data export functionality for reporting.</li>
+                            <li>Designed and managed the relational database.</li>
+                        </ol>
+                    </div>
+                    <div class="project-highlights">
+                        <h4>Highlights</h4>
+                        <div class="highlights-grid">
+                            <span class="chip chip-orange">AHP decision engine</span>
+                            <span class="chip chip-blue">Public transparency portal</span>
+                            <span class="chip chip-green">Citizen feedback workflow</span>
+                            <span class="chip chip-purple">Exportable reports</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 5 -->
+            <article class="project">
+                <div class="project-header">
+                    <span class="project-number">05</span>
+                    <div>
+                        <h3 class="project-name">Government GIS Modernization Platform</h3>
+                        <p class="project-subtitle">Legacy GIS migration from CodeIgniter to Laravel with new management module.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <div class="meta-item"><span class="meta-label">Role</span><span class="meta-value">Web Developer Intern</span></div>
+                    <div class="meta-item"><span class="meta-label">Type</span><span class="meta-value">Internship Project</span></div>
+                    <div class="meta-item"><span class="meta-label">Stack</span><span class="meta-value">Laravel, MySQL</span></div>
+                    <div class="meta-item"><span class="meta-label">Client</span><span class="meta-value">Local Government</span></div>
+                </div>
+                <div class="project-body">
+                    <div class="project-overview">
+                        <h4>Overview</h4>
+                        <p>Contributed to the modernization of a government GIS by migrating a legacy CodeIgniter application to Laravel. Introduced a new management system to simplify data administration and improve maintainability.</p>
+                    </div>
+                    <div class="project-contributions">
+                        <h4>My Contributions</h4>
+                        <ol>
+                            <li>Participated in migrating the legacy application from CodeIgniter to Laravel.</li>
+                            <li>Developed a new management module for administrative operations.</li>
+                            <li>Refactored existing components to improve maintainability.</li>
+                            <li>Integrated the new module with the existing GIS platform.</li>
+                            <li>Assisted in database management and testing during migration.</li>
+                        </ol>
+                    </div>
+                    <div class="project-highlights">
+                        <h4>Highlights</h4>
+                        <div class="highlights-grid">
+                            <span class="chip chip-blue">Legacy modernization</span>
+                            <span class="chip chip-orange">CodeIgniter to Laravel</span>
+                            <span class="chip chip-green">Government system</span>
+                            <span class="chip chip-purple">Improved maintainability</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Project 6: Enterprise -->
+            <article class="project">
+                <div class="project-header">
+                    <span class="project-number">06</span>
+                    <div>
+                        <h3 class="project-name">Enterprise Healthcare Platform</h3>
+                        <p class="project-subtitle">Enterprise healthcare applications serving 41+ hospitals across Indonesia.</p>
+                    </div>
+                </div>
+                <div class="project-meta">
+                    <div class="meta-item"><span class="meta-label">Role</span><span class="meta-value">Software Engineer</span></div>
+                    <div class="meta-item"><span class="meta-label">Company</span><span class="meta-value">PT BitHealth Teknologi Pintar</span></div>
+                    <div class="meta-item"><span class="meta-label">Stack</span><span class="meta-value">Next.js, Vue.js, Express.js, AWS</span></div>
+                    <div class="meta-item"><span class="meta-label">Team</span><span class="meta-value">Cross-functional Agile</span></div>
+                </div>
+                <div class="project-body">
+                    <div class="project-overview">
+                        <h4>Overview</h4>
+                        <p>Contributed to the development and maintenance of enterprise healthcare platforms used by hospitals across Indonesia. Worked closely with frontend developers, backend engineers, QA, and product teams to deliver scalable features and support digital healthcare services.</p>
+                    </div>
+                    <div class="project-contributions">
+                        <h4>My Contributions</h4>
+                        <ol>
+                            <li>Developed responsive web interfaces using Vue.js and Next.js.</li>
+                            <li>Integrated frontend applications with RESTful APIs.</li>
+                            <li>Implemented new business features based on product requirements.</li>
+                            <li>Refactored legacy modules to improve maintainability.</li>
+                            <li>Wrote unit tests using Jest and Mocha.</li>
+                            <li>Participated in Agile sprint planning, code reviews, and production deployments.</li>
+                        </ol>
+                    </div>
+                    <div class="project-highlights">
+                        <h4>Highlights</h4>
+                        <div class="highlights-grid">
+                            <span class="chip chip-blue">41+ hospitals</span>
+                            <span class="chip chip-green">Legacy modernization</span>
+                            <span class="chip chip-orange">REST API integration</span>
+                            <span class="chip chip-purple">Agile development</span>
+                            <span class="chip chip-blue">Unit testing</span>
+                            <span class="chip chip-green">Cross-functional collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+        <div class="container">
+            <span class="section-label">Career</span>
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-list">
+                <div class="exp-item">
+                    <div class="exp-period">2024 - Present</div>
+                    <div class="exp-content">
+                        <h3>Software Engineer</h3>
+                        <p class="exp-company">PT. BitHealth Teknologi Pintar</p>
+                        <p class="exp-desc">Enterprise healthcare platforms, frontend revamp, backend APIs, AWS infrastructure optimization.</p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-period">2023</div>
+                    <div class="exp-content">
+                        <h3>Junior Programmer (Intern)</h3>
+                        <p class="exp-company">DISKOMINFO Kulon Progo</p>
+                        <p class="exp-desc">GIS modernization, Laravel migration, database optimization.</p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-period">2022 - 2023</div>
+                    <div class="exp-content">
+                        <h3>ML Teaching Assistant</h3>
+                        <p class="exp-company">Universitas Atma Jaya Yogyakarta</p>
+                        <p class="exp-desc">Mentored 40+ students in machine learning algorithms.</p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-period">2019 - 2023</div>
+                    <div class="exp-content">
+                        <h3>Bachelor of Informatics</h3>
+                        <p class="exp-company">Universitas Atma Jaya Yogyakarta</p>
+                        <p class="exp-desc">GPA 3.89/4.00, Cum Laude.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Certifications</h3>
+            <div class="cert-list">
+                <span class="cert-tag">AWS Partner Accreditation (Technical)</span>
+                <span class="cert-tag">AWS Cloud Quest: Cloud Practitioner</span>
+                <span class="cert-tag">Google Introduction to Generative AI</span>
+                <span class="cert-tag">Best Group Project - Hacktiv8</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-dark" id="contact">
+        <div class="container contact-section">
+            <span class="section-label">Connect</span>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-desc">Open to new opportunities and collaborations.</p>
+            <div class="contact-links">
+                <a href="mailto:marcelinusyudistira@gmail.com" class="contact-btn">Email</a>
+                <a href="https://www.linkedin.com/in/marcelinusyudistira" target="_blank" rel="noopener" class="contact-btn">LinkedIn</a>
+                <a href="https://github.com/marcelinusyudistira" target="_blank" rel="noopener" class="contact-btn">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Marcelinus Yudistira. Built with HTML & CSS.</p>
+    </footer>
+
+    <script>
+        const navToggle = document.getElementById('nav-toggle');
+        const navMenu = document.getElementById('nav-menu');
+        const navbar = document.getElementById('navbar');
+
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
